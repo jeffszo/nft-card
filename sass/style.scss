@@ -1,0 +1,98 @@
+// Estilos gerais
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+
+// Variáveis das cores
+$white: #fff;
+$blueDark: hsl(217, 54%, 11%);
+$mediumBlue: hsl(216, 50%, 16%);
+$cian: hsl(178, 100%, 50%);
+
+body {
+  background-color: $blueDark;
+}
+
+// Card
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: $mediumBlue;
+  margin: 8% auto;
+  border: 1px solid none;
+  border-radius: 10px;
+  width: 300px;
+}
+
+// Imagem da NFT
+figure {
+  display: flex;
+  justify-content: center;
+  padding: 5% 0;
+  img {
+    border-radius: 5px;
+    width: 260px;
+  }
+}
+
+// Titulo e descrição
+h3 {
+  margin-bottom: 4%;
+}
+
+.text {
+  color: $white;
+  margin: 0 5%;
+}
+
+#paragraph {
+  opacity: 0.5;
+  font-weight: lighter;
+}
+
+// Icones
+.elements {
+  margin: 5% 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#row {
+  margin-left: 5%;
+  width: 90%;
+  opacity: 0.1;
+  border-bottom: 1px solid $white;
+}
+
+#icon-one {
+  font-weight: 600;
+  color: $cian;
+}
+
+#icon-two {
+  opacity: 0.5;
+  color: $white;
+}
+
+// Avatar da NFT
+.container-avatar {
+  padding: 5%;
+  display: flex;
+  p {
+    color: $white;
+  }
+}
+
+span {
+  opacity: 0.3;
+}
+
+#avatar {
+  border-radius: 50%;
+  border: 1px solid $white;
+  width: 30px;
+  margin-right: 3%;
+}
